@@ -4,8 +4,10 @@ let hello = "test"
 
 let five = 2 + 3
 
+// Test commment hello
+
 
 {
-    "test": 5
+    "test": 12.643
     }
 
