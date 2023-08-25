@@ -1,0 +1,11 @@
+import "test.jslt" as test-function
+
+let hello = "test"
+
+let five = 2 + 3
+
+
+{
+    "test": 5
+    }
+
