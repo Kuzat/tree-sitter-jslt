@@ -2,12 +2,23 @@ import "test.jslt" as test-function
 
 let hello = "test"
 
+let testobject = {
+    "somethin": 5 - 2,
+    "helllo": [2, 3, 4, 6, 7, 8, 9],
+    "world": $hello
+}
+
+
 let five = 2 + 3
 
 // Test commment hello
 
+def plus_one(value)
+    let one = 1
+    $value + $one
 
 {
-    "test": 12.643
+    "test": 12.643,
+    "two": plus_one()
     }
 

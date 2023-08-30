@@ -194,7 +194,10 @@ module.exports = grammar({
         ),
 
         let_statement: $ => seq(
-            $.let, $.ident, $.assign, $.expression
+            $.let, 
+            field("name", $.ident), 
+            $.assign,
+            field("value", $.expression)
         ),
 
         function_statement: $ => seq(
